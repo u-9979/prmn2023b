@@ -20,16 +20,15 @@ public class Input {
                 String pas = scan.next();
                 if (num[i][1].equals(pas)) {
                     System.out.println("ログイン完了");
-                    break;
+                    return;
                 } else {
                     System.out.println("不正なアクセス");
                     System.exit(0);
                 }
-            }else if(i ==4) {
-                System.out.println("error!!");
-                System.exit(0);
             }
         }
+        System.out.println("error!!");
+        System.exit(0);
     }
 
 }

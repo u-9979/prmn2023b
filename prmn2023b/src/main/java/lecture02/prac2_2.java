@@ -15,5 +15,6 @@ public class prac2_2 {
         System.out.print("学籍番号を入力して下さい:");
         int num_2 = scan.nextInt();
         log.message(name_2,num_2);
+
     }
 }
